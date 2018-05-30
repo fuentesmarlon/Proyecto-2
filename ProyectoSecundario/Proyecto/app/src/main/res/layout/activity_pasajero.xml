@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="olakase.proyectoobjetos.Pasajero">
+
+    <LinearLayout
+        android:layout_width="784dp"
+        android:layout_height="1127dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/textView54"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:text="Color"
+            android:textAlignment="viewStart"
+            android:textSize="20sp"
+            android:visibility="visible"
+            tools:layout_editor_absoluteX="64dp"
+            tools:layout_editor_absoluteY="304dp" />
+
+        <TextView
+            android:id="@+id/txtColor1"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:textAlignment="viewStart"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="414dp"
+            tools:layout_editor_absoluteY="110dp" />
+
+        <TextView
+            android:id="@+id/txtColor2"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:textAlignment="viewStart"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="64dp"
+            tools:layout_editor_absoluteY="171dp" />
+
+        <TextView
+            android:id="@+id/txtColor3"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:textAlignment="viewStart"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="414dp"
+            tools:layout_editor_absoluteY="171dp" />
+
+        <TextView
+            android:id="@+id/textView56"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:text="Marca de carro"
+            android:textAlignment="viewStart"
+            android:textSize="20sp"
+            android:visibility="visible"
+            tools:layout_editor_absoluteX="54dp"
+            tools:layout_editor_absoluteY="564dp" />
+
+        <TextView
+            android:id="@+id/txtMarca1"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:textAlignment="viewStart"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="414dp"
+            tools:layout_editor_absoluteY="372dp" />
+
+        <TextView
+            android:id="@+id/txtMarca2"
+            android:layout_width="798dp"
+            android:layout_height="34dp"
+            android:textAlignment="viewStart"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="414dp"
+            tools:layout_editor_absoluteY="433dp"
+            android:layout_weight="0.01" />
+
+        <TextView
+            android:id="@+id/txtMarca3"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:textAlignment="viewStart"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="247dp"
+            tools:layout_editor_absoluteY="499dp" />
+
+        <TextView
+            android:id="@+id/textView57"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:text="Numero de pasajeros"
+            android:textAlignment="viewStart"
+            android:textSize="20sp"
+            android:visibility="visible"
+            tools:layout_editor_absoluteX="64dp"
+            tools:layout_editor_absoluteY="56dp" />
+
+        <TextView
+            android:id="@+id/txtPlaca1"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:textAlignment="viewStart"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="64dp"
+            tools:layout_editor_absoluteY="433dp" />
+
+        <TextView
+            android:id="@+id/txtPlaca2"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:textAlignment="viewStart"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="64dp"
+            tools:layout_editor_absoluteY="656dp" />
+
+        <TextView
+            android:id="@+id/txtPlaca3"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:textAlignment="viewStart"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="64dp"
+            tools:layout_editor_absoluteY="717dp" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
